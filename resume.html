@@ -6,20 +6,21 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Resume - Sharvani Yadav</title>
-        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .tile-logo {
+                max-width: 100px;
+                margin-bottom: 15px;
+            }
+        </style>
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
-            <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Sharvani Yadav</span></a>
@@ -35,166 +36,112 @@
                     </div>
                 </div>
             </nav>
-            <!-- Page Content-->
             <div class="container px-5 my-5">
                 <div class="text-center mb-5">
                     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-11 col-xl-9 col-xxl-8">
-                        <!-- Experience Section-->
                         <section>
                             <div class="d-flex align-items-center justify-content-between mb-4">
                                 <h2 class="text-primary fw-bolder mb-0">Experience</h2>
-                                <!-- Download resume button-->
-                                <!-- Note: Set the link href target to a PDF file within your project-->
-                                <a class="btn btn-primary px-4 py-3" href="#!">
-                                    <div class="d-inline-block bi bi-download me-2"></div>
-                                    Download Resume
-                                </a>
+                                <a class="btn btn-primary px-4 py-3" href="#">Download Resume</a>
                             </div>
-                            <!-- Experience Card 1-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <img src="assets/mims_logo.png" alt="MIMS Logo" class="tile-logo" />
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-primary fw-bolder mb-2">2023 - Present</div>
                                                 <div class="small fw-bolder">Research Assistant</div>
-                                                <div class="small text-muted">Mixed-Reality Immersive Motion Simulation (MIMS) Laboratory</div>
-                                                <div class="small text-muted">Toronto, ON</div>
+                                                <div class="small text-muted">Mixed-Reality Immersive Motion Simulation (MIMS) Laboratory, Toronto, ON</div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Optimized urban air traffic systems with AI-driven models (LSTM, PPO, CNNs), reducing taxi delays by 20% and congestion by 25%. Enhanced trajectory accuracy by 40% through RRT and A* pathfinding in Unreal Engine 5 (UE5) and developed AR/VR simulations of Toronto using GIS data. Advanced 3D surgical simulation with RGB-D point clouds calibrated via PyTorch and TensorFlow, achieving 94% spatial accuracy and cutting response times by 45%. Improved HoloLens fidelity with volumetric video integration in UE5 and created a Python-based hand-tracking model using OpenCV and Mediapipe.</div></div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li>Optimized urban air traffic systems with AI-driven models (LSTM, PPO, CNNs), reducing taxi delays by 20% and congestion by 25%.</li>
+                                                <li>Enhanced trajectory accuracy by 40% through RRT and A* pathfinding in Unreal Engine 5 (UE5).</li>
+                                                <li>Developed AR/VR simulations of Toronto using GIS data.</li>
+                                                <li>Advanced 3D surgical simulation with RGB-D point clouds calibrated via PyTorch and TensorFlow, achieving 94% spatial accuracy and cutting response times by 45%.</li>
+                                                <li>Improved HoloLens fidelity with volumetric video integration in UE5 and created a Python-based hand-tracking model using OpenCV and Mediapipe.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Experience Card 2-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <img src="assets/mars_logo.png" alt="MARS Logo" class="tile-logo" />
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-primary fw-bolder mb-2">2023 - Present</div>
                                                 <div class="small fw-bolder">Engineering Lead & Co-Director</div>
-                                                <div class="small text-muted">Toronto Metropolitan Aerospace Rocket Society (MARS)</div>
-                                                <div class="small text-muted">Toronto, ON</div>
+                                                <div class="small text-muted">Toronto Metropolitan Aerospace Rocket Society (MARS), Toronto, ON</div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Directed a team of 80+ students in designing rockets with G-Class solid-propellant engines, achieving 35 successful launches. Developed custom avionics systems using Arduino microcontrollers for real-time flight data acquisition and control. Optimized aerodynamic performance and stability through advanced FEA (Finite Element Analysis) and CFD (Computational Fluid Dynamics) tools.
-
-                                        </div></div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li>Directed a team of 80+ students in designing rockets with G-Class solid-propellant engines, achieving 35 successful launches.</li>
+                                                <li>Developed custom avionics systems using Arduino microcontrollers for real-time flight data acquisition and control.</li>
+                                                <li>Optimized aerodynamic performance and stability through advanced FEA (Finite Element Analysis) and CFD (Computational Fluid Dynamics) tools.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <!-- Education Section-->
                         <section>
                             <h2 class="text-secondary fw-bolder mb-4">Education</h2>
-                            <!-- Education Card 1-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <img src="assets/toronto_met_logo.png" alt="Toronto Metropolitan University Logo" class="tile-logo" />
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-secondary fw-bolder mb-2">2021 - 2025</div>
                                                 <div class="mb-2">
-                                                    <div class="small fw-bolder">Toronto Metropolitan University</div>
-                                                    <div class="small text-muted">Toronto, ON</div>
-                                                </div>
-                                                <div class="fst-italic">
-                                                    <div class="small text-muted">Bachelor's of Engineering</div>
-                                                    <div class="small text-muted">Aerospace Engineering</div>
+                                                    <div class="small fw-bolder">Toronto Metropolitan University, Toronto, ON</div>
+                                                    <div class="fst-italic">
+                                                        <div class="small text-muted">Bachelor's of Engineering</div>
+                                                        <div class="small text-muted">Aerospace Engineering</div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Specialized in aerodynamics, propulsion, and systems design with coursework in machine learning, avionics, and aeroelasticity. Gained hands-on experience through design projects, research initiatives, and leadership roles in student organizations. Developed strong technical expertise in computational tools (MATLAB, CATIA, Python) and a robust foundation in engineering problem-solving and innovation.</div></div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li>Specialized in aerodynamics, propulsion, and systems design with coursework in machine learning, avionics, and aeroelasticity.</li>
+                                                <li>Gained hands-on experience through design projects, research initiatives, and leadership roles in student organizations.</li>
+                                                <li>Developed strong technical expertise in computational tools (MATLAB, CATIA, Python) and a robust foundation in engineering problem-solving and innovation.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Education Card 2-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <img src="assets/glenforest_logo.png" alt="Glenforest Secondary School Logo" class="tile-logo" />
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-secondary fw-bolder mb-2">2017 - 2021</div>
                                                 <div class="mb-2">
-                                                    <div class="small fw-bolder">Glenforest Secondary School</div>
-                                                    <div class="small text-muted">Mississauga, ON</div>
-                                                </div>
-                                                <div class="fst-italic">
-                                                    <div class="small text-muted">High School</div>
-                                                    <div class="small text-muted">International Bacculaureate (IB)</div>
+                                                    <div class="small fw-bolder">Glenforest Secondary School, Mississauga, ON</div>
+                                                    <div class="fst-italic">
+                                                        <div class="small text-muted">High School</div>
+                                                        <div class="small text-muted">International Baccalaureate (IB)</div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Achieved a globally recognized IB Diploma, demonstrating academic excellence across a rigorous curriculum emphasizing critical thinking, research, and interdisciplinary learning. Developed strong analytical and problem-solving skills through Higher Level (HL) subjects, complemented by the completion of an Extended Essay and participation in the Creativity, Activity, Service (CAS) program, fostering a well-rounded academic and personal profile.</div></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- Divider-->
-                        <div class="pb-5"></div>
-                        <!-- Skills Section-->
-                        <section>
-                            <!-- Skillset Card-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <!-- Professional skills list-->
-                                    <div class="mb-5">
-                                        <div class="d-flex align-items-center mb-4">
-                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
-                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span></h3>
-                                        </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Machine Learning & AI Model Development
-            </div>
-        </div>
-        <div class="col">
-            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Flight Simulation & Avionics Systems Design
-            </div>
-        </div>
-        <div class="col">
-            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Computational Tools (MATLAB, CATIA, ANSYS, UE5)
-            </div>
-        </div>
-        <div class="col">
-            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Data Analysis & Visualization (Python, TensorFlow, PyTorch)
-            </div>
-        </div>
-        <div class="col">
-            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                AR/VR Application Development
-            </div>
-        </div>
-        <div class="col">
-            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                Finite Element Analysis (FEA) & Computational Fluid Dynamics (CFD)
-            </div>
-        </div>
-    </div>
-                                    </div>
-                                    <!-- Languages list-->
-                                    <div class="mb-0">
-                                        <div class="d-flex align-items-center mb-4">
-                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
-                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">MATLAB</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">C++</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li>Achieved a globally recognized IB Diploma, demonstrating academic excellence across a rigorous curriculum emphasizing critical thinking, research, and interdisciplinary learning.</li>
+                                                <li>Developed strong analytical and problem-solving skills through Higher Level (HL) subjects.</li>
+                                                <li>Completed an Extended Essay and participated in the Creativity, Activity, Service (CAS) program, fostering a well-rounded academic and personal profile.</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -204,24 +151,21 @@
                 </div>
             </div>
         </main>
-        <!-- Footer-->
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Sharvani Yadav 2025</div></div>
                     <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
+                        <a class="small" href="#">Privacy</a>
                         <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
+                        <a class="small" href="#">Terms</a>
                         <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
+                        <a class="small" href="#">Contact</a>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
 </html>
